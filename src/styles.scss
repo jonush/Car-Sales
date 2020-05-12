@@ -11,12 +11,13 @@ body {
 .boxes {
   display: grid;
   grid-gap: 2em;
-  grid-template-columns: repeat(2, minmax(350px, 1fr));
+  grid-template-columns: repeat(2, minmax(500px, 1fr));
   grid-template-rows: auto;
 }
 .box {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
   min-height: 100%;
   h1 {
     font-size: 20px;
@@ -26,7 +27,7 @@ body {
     padding-top: 1em;
   }
   ol {
-    margin-left: 0;
+    margin: 0 auto;
     li {
       align-items: center;
       display: flex;
